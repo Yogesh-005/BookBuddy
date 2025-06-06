@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('BookBuddy'),
-        backgroundColor: Colors.blue[700],
+        backgroundColor: Colors.blueAccent,
         foregroundColor: Colors.white,
         actions: [
           IconButton(
@@ -141,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                 ElevatedButton(
                   onPressed: _searchBooks,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue[700],
+                    backgroundColor: Colors.grey,
                     foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8),
@@ -272,7 +272,7 @@ class BookCard extends StatelessWidget {
                     icon: Icon(Icons.favorite_border, size: 16),
                     label: Text('Add to Wishlist'),
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.red[400],
+                      backgroundColor: Colors.lightGreen,
                       foregroundColor: Colors.white,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),

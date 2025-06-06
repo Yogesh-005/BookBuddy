@@ -11,7 +11,7 @@ class BookBuddyApp extends StatelessWidget {
     return MaterialApp(
       title: 'BookBuddy',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: LoginPage(),

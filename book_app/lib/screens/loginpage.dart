@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
               Icon(
                 Icons.book,
                 size: 80,
-                color: Colors.blue[700],
+                color: Colors.grey,
               ),
               SizedBox(height: 16),
               Text(
@@ -33,7 +33,7 @@ class _LoginPageState extends State<LoginPage> {
                 style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue[700],
+                  color: Colors.grey,
                 ),
               ),
               SizedBox(height: 8),
@@ -100,7 +100,7 @@ class _LoginPageState extends State<LoginPage> {
                       child: ElevatedButton(
                         onPressed: _handleAuth,
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.blue[700],
+                          backgroundColor: Colors.grey,
                           foregroundColor: Colors.white,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8),

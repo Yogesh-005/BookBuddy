@@ -24,6 +24,6 @@ class ApiService {
   }
 
   Future<List<Book>> getPopularBooks() async {
-    return await searchBooks('flutter programming');
+    return await searchBooks('inheritance games OR hunger games OR maze runner OR divergent OR twilight OR harry potter');
   }
 }

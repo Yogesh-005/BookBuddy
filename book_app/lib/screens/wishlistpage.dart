@@ -65,7 +65,7 @@ class _WishlistPageState extends State<WishlistPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('My Wishlist'),
-        backgroundColor: Colors.red[400],
+        backgroundColor: Colors.lightGreen,
         foregroundColor: Colors.white,
       ),
       body: _isLoading
