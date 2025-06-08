@@ -238,4 +238,4 @@ Created as a learning project to develop proficiency in:
 
 ---
 
-**Happy Coding! **
+## Happy Coding!
